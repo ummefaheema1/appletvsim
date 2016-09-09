@@ -1,0 +1,159 @@
+body {
+  background-color: #CCCCCC;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 900px;
+  margin: auto;
+  padding-top: 40px;
+}
+.screen {
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  float: left;
+  min-height: 400px;
+}
+.remote {
+  border-radius: 22px;
+  vertical-align: top;
+  background-color: #f3f2f0;
+  width: 150px;
+  height: 500px;
+  margin-left: 20px;
+  min-height: 500px;
+  float: left;
+  overflow: hidden;
+}
+#top {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #404040;
+  min-height: 210px;
+  min-width: 150px;
+}
+#bottom {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #131313;
+  min-height: 290px;
+  min-width: 150px;
+}
+
+/* Top Remote Area */
+.leftclick {
+  width: 25px;
+  height: 160px;
+  min-height: 160px;
+  min-width: 25px;
+  float: left;
+  vertical-align: top;
+}
+.rightclick {
+  width: 25px;
+  height: 160px;
+  min-height: 160px;
+  min-width: 25px;
+  vertical-align: top;
+  float: right;
+}
+.upperclick {
+  width: 100px;
+  float: left;
+  height: 42px;
+}
+.middleclick {
+  width: 100px;
+  float: left;
+  height: 72px;
+}
+.lowerclick {
+  width: 100px;
+  float: left;
+  height: 42px;
+}
+.topbuttons {
+  vertical-align: bottom;
+  float: left;
+  margin-left: 20px;
+}
+#menu, #home {
+  border-radius: 50%;
+  background-color: #131313;
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+#menu p {
+  color: #abb2bf;
+  font: 11px Verdana, sans-serif;
+  padding: 7px 0 0 8px;
+}
+#home {
+  margin-left: 10px;
+}
+#tviconframe {
+  margin: auto;
+  margin-top: 18px;
+  width: 18px;
+  min-width: 18px;
+  height: 11px;
+  min-height: 11px;
+  border: 1px solid #abb2bf;
+}
+#smline {
+  margin: auto;
+  margin-top: 1px;
+  width: 6px;
+  min-width: 6px;
+  height: 1px;
+  min-height: 1px;
+  border-top: 1px solid #abb2bf;
+}
+
+/* Bottom remote area */
+.bottombuttons {
+  vertical-align: top;
+  float: left;
+  margin-left: 20px;
+}
+
+#siri, #play {
+  border-radius: 50%;
+  background-color: #202020;
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+#siri {
+  margin-top: 10px;
+}
+
+#siri p {
+  color: #abb2bf;
+  font: 11px Verdana, sans-serif;
+  padding: 7px 0 0 8px;
+}
+
+#play {
+  margin-top: 10px;
+}
+
+#play p {
+  color: #abb2bf;
+  font: 11px Verdana, sans-serif;
+  padding: 7px 0 0 8px;
+}
+
+
+#volume {
+  margin: 10px 24px 0 0;
+  background-color: #202020;
+  height: 106px;
+  width: 48px;
+  border-radius: 45px;
+  float: right;
+}
