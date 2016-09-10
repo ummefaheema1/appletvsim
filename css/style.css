@@ -85,11 +85,13 @@ body {
   width: 48px;
   height: 48px;
   float: left;
+  border: 1px outset #131313;
 }
 #menu p {
   color: #abb2bf;
   font: 11px Verdana, sans-serif;
-  padding: 7px 0 0 8px;
+  padding: 7px 0 0 0;
+  text-align: center;
 }
 #home {
   margin-left: 10px;
@@ -126,9 +128,19 @@ body {
   width: 48px;
   height: 48px;
   float: left;
+  border: 1px outset #131313;
 }
 
 #siri {
+  margin-top: 10px;
+}
+#siri img {
+  height: 22px;
+  width: 20px;
+  padding: 12px 0 0 14px; 
+}
+
+#play {
   margin-top: 10px;
 }
 
@@ -138,22 +150,30 @@ body {
   padding: 7px 0 0 8px;
 }
 
-#play {
-  margin-top: 10px;
-}
-
 #play p {
   color: #abb2bf;
   font: 11px Verdana, sans-serif;
-  padding: 7px 0 0 8px;
+  padding: 7px 0 0 0;
+  text-align: center;
 }
 
-
 #volume {
-  margin: 10px 24px 0 0;
+  margin: 10px 20px 0 0;
   background-color: #202020;
-  height: 106px;
+  height: 109px;
   width: 48px;
   border-radius: 45px;
   float: right;
+  border: 1px outset #131313;
+}
+
+#volume p {
+  color: #abb2bf;
+  font: 16px Verdana, sans-serif;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+#volumedown {
+  padding-top: 1px;
 }
