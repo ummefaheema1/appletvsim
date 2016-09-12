@@ -11,23 +11,27 @@ body {
 }
 .screen {
   background-color: white;
-  width: 640px;
-  height: 425px;
+  width: 700px;
+  height: 500px;
   float: left;
   min-height: 400px;
 
 }
 .topscreen {
-  height: 241px;
+  height: 262px;
   width:100%;
   vertical-align: top;
-  background-color: blue;
+
 }
 
 .bottomscreen {
-  height:50px;
+  height:250px;
   width:100%;
   background-color: red;
+  padding: 10px 0 0 10px;
+}
+.bottomscreen img {
+  padding: 0 20px 40px 20px;
 }
 
 .remote {
