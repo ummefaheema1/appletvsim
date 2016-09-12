@@ -16,6 +16,17 @@ body {
   float: left;
   min-height: 400px;
 }
+.topscreen {
+  height: 200px;
+  width:100%;
+  vertical-align: top;
+}
+
+.bottomscreen {
+  height:300px;
+  width:100%;
+}
+
 .remote {
   border-radius: 22px;
   vertical-align: top;
@@ -137,7 +148,7 @@ body {
 #siri img {
   height: 22px;
   width: 20px;
-  padding: 13px 0 0 14px; 
+  padding: 13px 0 0 14px;
 }
 
 #play {
