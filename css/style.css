@@ -17,6 +17,15 @@ body {
   min-height: 400px;
 
 }
+.screen2 {
+  background-color: white;
+  width: 700px;
+  height: 393px;
+  float: left;
+  min-height: 400px;
+
+}
+
 .topscreen {
   height: 262px;
   width:100%;
@@ -25,13 +34,12 @@ body {
 }
 
 .bottomscreen {
-  height:250px;
+  height:200px;
   width:100%;
-  background-color: red;
-  padding: 10px 0 0 10px;
+  padding: 10px 0 0 30px;
 }
 .bottomscreen img {
-  padding: 0 20px 40px 20px;
+  padding: 0 40px 40px 0;
 }
 
 .remote {
