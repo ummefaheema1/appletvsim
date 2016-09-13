@@ -15,7 +15,35 @@ body {
   height: 500px;
   float: left;
   min-height: 400px;
+
 }
+.screen2 {
+  background-color: white;
+  width: 700px;
+  height: 393px;
+  float: left;
+  min-height: 400px;
+
+}
+
+.topscreen {
+  height: 262px;
+  width:100%;
+  vertical-align: top;
+
+}
+#shadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+.bottomscreen {
+  height:200px;
+  width:100%;
+  padding: 10px 0 0 30px;
+}
+.bottomscreen img {
+  margin: 0 40px 40px 0;
+}
+
 .remote {
   border-radius: 22px;
   vertical-align: top;
@@ -137,7 +165,7 @@ body {
 #siri img {
   height: 22px;
   width: 20px;
-  padding: 13px 0 0 14px; 
+  padding: 13px 0 0 14px;
 }
 
 #play {
